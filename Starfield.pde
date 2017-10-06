@@ -13,7 +13,6 @@ void setup()
   //your code here
 }
 void draw(){
-  mousePressed();
   background(0);
       for (int i=0; i< creeps.length; i++)
     {
@@ -87,8 +86,5 @@ class JumboParticle extends NormalParticle  //uses inheritance
    ellipse((float)myX,(float)myY,30,30);
   }
   //your code here
-}
-void mousePressed(){
-  redraw();
 }
 
