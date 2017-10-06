@@ -46,7 +46,7 @@ class NormalParticle implements Particle
   public void show()
   {
     fill(hue,hue1,hue2);
-    ellipse((float)myX,(float)myY,3,3);
+    ellipse((float)myX,(float)myY,40,40);
  
   }
   //your code here
@@ -83,7 +83,7 @@ class JumboParticle extends NormalParticle  //uses inheritance
 {
   void show(){
    fill(242,255,190);
-   ellipse((float)myX,(float)myY,30,30);
+   ellipse((float)myX,(float)myY,80,80);
   }
   //your code here
 }
