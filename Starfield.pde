@@ -28,8 +28,8 @@ class NormalParticle implements Particle
   color hue,hue1,hue2;
   NormalParticle()
   {
-    myX=250;
-    myY=250;
+    myX=3;
+    myY=3;
     speed= (Math.random()*10);
     angle= (Math.random()*2*Math.PI);
     hue=(int)(Math.random()*255);
